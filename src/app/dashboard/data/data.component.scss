@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; // Center horizontally
+    justify-content: center; // Center vertically
+    min-height: 30vh; 
+}
+
+.header-row, .data-row {
+    margin-bottom: 10px;
+}
+
+.button.active {
+    background-color: orange;
+}
+
+.border-green {
+    border: 1px solid green;
+}
+
+button {
+    margin-right: 5px;
+}

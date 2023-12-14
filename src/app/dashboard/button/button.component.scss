@@ -1,0 +1,39 @@
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center; /* Center the content horizontally */
+
+  button {
+      margin: 20px auto; 
+      padding: 10px 20px;
+      background-color: #3498db; /* Cool Blue Color */
+      color: #fff; /* Text Color */
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+          background-color: #2980b9; /* Darker Blue Color on Hover */
+      }
+  }
+
+  .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      display: none;
+      background-color: #2d0bee;
+      box-shadow: 0 2px 5px rgba(24, 47, 166, 0.1);
+      border-radius: 5px;
+      z-index: 1;
+
+   
+  }
+
+  &:hover .dropdown-menu {
+      display: block;
+  }
+}
