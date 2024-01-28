@@ -19,6 +19,8 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
+import { KindergartenDetailComponent } from './kindergarten-detail/kindergarten-detail.component';
+import { FooterComponent } from './footer/footer.component';
  
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { MatSelectModule } from '@angular/material/select';
     AddDataComponent,
     DataComponent,
     HeaderComponent,
-    ButtonComponent
+    ButtonComponent,
+    KindergartenDetailComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
