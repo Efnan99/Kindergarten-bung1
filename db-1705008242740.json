@@ -2,57 +2,9 @@
   "childs": [
     {
       "name": "efnan",
-      "kindergardenId": 1,
-      "birthDate": "2022-02-20",
-      "id": 62
-    },
-    {
-      "name": "sebi",
       "kindergardenId": 3,
-      "birthDate": "2011-10-10",
-      "id": 74
-    },
-    {
-      "name": "hans",
-      "kindergardenId": 2,
-      "birthDate": "2019-02-20",
-      "id": 75
-    },
-    {
-      "name": "keks",
-      "kindergardenId": 2,
-      "birthDate": "2022-11-13",
-      "id": 76
-    },
-    {
-      "name": "keks",
-      "kindergardenId": 2,
-      "birthDate": "2022-11-13",
-      "id": 77
-    },
-    {
-      "name": "keks",
-      "kindergardenId": 2,
-      "birthDate": "2022-11-13",
-      "id": 78
-    },
-    {
-      "name": "sebi",
-      "kindergardenId": 3,
-      "birthDate": "2018-02-18",
-      "id": 79
-    },
-    {
-      "name": "efnan",
-      "kindergardenId": 3,
-      "birthDate": "2022-02-20",
-      "id": 80
-    },
-    {
-      "name": "efnan",
-      "kindergardenId": 3,
-      "birthDate": "2022-02-22",
-      "id": 81
+      "birthDate": "2020-02-02",
+      "id": 1
     }
   ],
   "kindergardens": [

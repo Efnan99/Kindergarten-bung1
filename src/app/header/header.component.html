@@ -1,15 +1,19 @@
 <div class="header-container">
   <h1>{{ title }}</h1>
   <img width="500" [src]="imagePath" alt="Kindergarten Image">
-  
-  <button mat-button [matMenuTriggerFor]="menu">Menu</button>
 
-  <mat-menu #menu="matMenu">
+  
+
+ 
     <button mat-menu-item [routerLink]="['/dashboard']">
       <span>Dashboard</span>
     </button>
     <button mat-menu-item [routerLink]="['/about']">
       <span>About</span>
     </button>
-  </mat-menu>
+    <button mat-menu-item [routerLink]="['/Kindergarten-detail']">
+      <span>Kindergarten Info</span>
+    </button>
+    <mat-menu #menu="matMenu" xPosition="before" yPosition="below"></mat-menu>
+  
 </div>

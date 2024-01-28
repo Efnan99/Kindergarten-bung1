@@ -2,11 +2,10 @@ export interface Kindergarden {
     id: number;
     name: string;
     address: string;
-    typ: KindergardenTyp; // Klare Benennung für den Enum
+    typ: KindergardenTyp; 
   }
   
   export enum KindergardenTyp {
     Privat = 'Privat',
     Oeffentlich = 'Oeffentlich',
   }
-  
